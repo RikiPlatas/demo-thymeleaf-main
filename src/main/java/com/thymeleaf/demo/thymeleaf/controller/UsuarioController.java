@@ -70,13 +70,13 @@ public class UsuarioController {
     }
 
 
-    @PostMapping("/login")
-    public String loginSubmit(@ModelAttribute Usuario usuario, ModelMap model) {
+    @PostMapping("/login2")
+    public String loginSubmit(@RequestParam String nick, @RequestParam String password, ModelMap model) {
         // Buscar el usuario por nombre de usuario (nick)
-        Usuario usuarioEncontrado = usuarioService.buscarUsuarioPorNombre(usuario.getNick());
+        Usuario usuarioEncontrado = usuarioService.buscarUsuarioPorNombre(nick);
 
         // Verificar si el usuario existe y si la contraseña es correcta
-        if (usuarioEncontrado != null && usuarioService.verificarLogin(usuarioEncontrado, usuario.getPassword())) {
+        if (usuarioEncontrado != null && usuarioService.verificarLogin(usuarioEncontrado,password)) {
             // Autenticación exitosa
             // Aquí puedes guardar información del usuario en la sesión si es necesario
             model.addAttribute("usuario", usuarioEncontrado);

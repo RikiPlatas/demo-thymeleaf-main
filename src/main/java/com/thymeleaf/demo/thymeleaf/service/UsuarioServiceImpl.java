@@ -10,10 +10,15 @@ import java.util.List;
 import java.util.Optional;
 @Service
 public class UsuarioServiceImpl implements UsuarioService {
-        @Autowired
-        private UsuarioRepository usuarioRepository;
-    @Autowired
-        private PasswordEncoder passwordEncoder;
+    private final UsuarioRepository usuarioRepository;
+    private final PasswordEncoder passwordEncoder;
+
+    // Constructor para la inyección de dependencias
+
+    public UsuarioServiceImpl(UsuarioRepository usuarioRepository, PasswordEncoder passwordEncoder) {
+        this.usuarioRepository = usuarioRepository;
+        this.passwordEncoder = passwordEncoder;
+    }
 
         // Método para guardar un usuario
         public Usuario guardarUsuario(Usuario usuario) {
