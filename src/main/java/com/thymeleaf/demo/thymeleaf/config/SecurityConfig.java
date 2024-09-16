@@ -18,10 +18,12 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+
         http
+
                 .csrf(AbstractHttpConfigurer::disable)//POR ESTO SE REDIRIGIA TODO EL RATO A LOGIN, MIRAR COMO HACER FUNIONAR Y NO DESHABILITAR
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth/registro","/auth/login","/user/guardar", "/user/main",  "/css/**", "/js/**").permitAll()
+                        .requestMatchers("/auth/registro","/auth/login","/user/guardar", "/user/main","/css/**", "/js/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .formLogin(form -> form
