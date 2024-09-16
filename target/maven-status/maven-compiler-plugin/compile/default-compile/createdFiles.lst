@@ -1,0 +1,8 @@
+com\thymeleaf\demo\thymeleaf\service\UsuarioService.class
+com\thymeleaf\demo\thymeleaf\controller\UsuarioController.class
+com\thymeleaf\demo\thymeleaf\config\SecurityConfig.class
+com\thymeleaf\demo\thymeleaf\service\UsuarioServiceImpl.class
+com\thymeleaf\demo\thymeleaf\model\BaseEntity.class
+com\thymeleaf\demo\thymeleaf\DemoThymeleafApplication.class
+com\thymeleaf\demo\thymeleaf\model\Usuario.class
+com\thymeleaf\demo\thymeleaf\repository\UsuarioRepository.class
