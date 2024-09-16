@@ -21,12 +21,12 @@ public class SecurityConfig {
         http
                 .csrf(AbstractHttpConfigurer::disable)//POR ESTO SE REDIRIGIA TODO EL RATO A LOGIN, MIRAR COMO HACER FUNIONAR Y NO DESHABILITAR
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/registro","/login2", "/main", "/login", "/css/**", "/js/**").permitAll()
+                        .requestMatchers("/auth/registro","/auth/login","/user/guardar", "/user/main",  "/css/**", "/js/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .formLogin(form -> form
-                        .loginPage("/login")
-                        .defaultSuccessUrl("/main", true)
+                        .loginPage("/user/main")
+                        .defaultSuccessUrl("/auth/login", true)
                         .permitAll()
                 )
                 .logout(logout -> logout

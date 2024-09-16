@@ -24,7 +24,7 @@ public interface UsuarioService {
     // Método para eliminar un usuario por su ID
     void eliminarUsuarioPorId(Long id);
 
-    Usuario buscarUsuarioPorNombre(String username);
+    Usuario buscarUsuarioPorNick(String nick);
 
     // Verificar contraseña del usuario
      boolean verificarLogin(Usuario usuario, String password);

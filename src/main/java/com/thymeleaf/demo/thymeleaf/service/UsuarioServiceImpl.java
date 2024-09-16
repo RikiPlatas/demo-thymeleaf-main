@@ -46,7 +46,7 @@ public class UsuarioServiceImpl implements UsuarioService {
         }
 
     @Override
-    public Usuario buscarUsuarioPorNombre(String nick) {
+    public Usuario buscarUsuarioPorNick(String nick) {
         return usuarioRepository.findByNick(nick);
     }
 
