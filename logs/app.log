@@ -1901,3 +1901,6 @@
 2024-09-16T18:31:44.656+02:00  INFO 1956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2024-09-16T18:31:44.688+02:00  INFO 1956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
 2024-09-16T18:31:44.697+02:00  INFO 1956 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Started DemoThymeleafApplication in 3.909 seconds (process running for 4.258)
+2024-09-16T18:49:58.887+02:00  INFO 1956 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T18:49:58.890+02:00  INFO 1956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T18:49:58.894+02:00  INFO 1956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
