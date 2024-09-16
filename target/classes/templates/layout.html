@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title th:title="${title}">Mi Aplicación</title>
+  <!-- Incluir Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Incluir Font Awesome para íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Incluir tu CSS personalizado -->
+  <link rel="stylesheet" href="/css/main.css">
+  <style>
+    .navbar-custom {
+        background-color: #007bff;
+    }
+    .navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .footer-custom {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    .content-wrapper {
+        min-height: 80vh; /* Ajusta esto según el contenido para asegurar que el footer esté al fondo */
+        padding-bottom: 60px; /* Espacio para el footer */
+    }
+  </style>
+</head>
+<body>
+<header>
+  <!-- Encabezado común -->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <a class="navbar-brand" href="#">Mi Aplicación</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/auth/login">Iniciar Sesión</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/auth/registro">Registrarse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/user/main">Página Principal</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main role="main" class="container content-wrapper">
+  <!-- Contenido específico de la plantilla -->
+  <div th:fragment="content"></div>
+</main>
+<div class="container mt-4">
+  <!-- Sección adicional entre el contenido y el pie de página -->
+  <div class="alert alert-info" role="alert">
+    ¡Bienvenido a nuestra aplicación! Explora nuestras funcionalidades y descubre todo lo que tenemos para ofrecer.
+  </div>
+</div>
+<footer class="footer-custom">
+  <!-- Pie de página común -->
+  <div class="container text-center">
+    <p>&copy; 2024 Mi Aplicación. Todos los derechos reservados.</p>
+    <p>
+      <a href="/privacy">Política de Privacidad</a> |
+      <a href="/terms">Términos y Condiciones</a>
+    </p>
+  </div>
+</footer>
+<!-- Incluir jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!-- Incluir Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<!-- Incluir Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

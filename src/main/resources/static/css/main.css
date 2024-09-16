@@ -1,5 +1,29 @@
 /* styles.css */
+/* styles bootstrap */
+    .navbar-custom {
+        background-color: #007bff;
+    }
+    .navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .footer-custom {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    .footer-custom p {
+             margin: 0;
+    }
+    .content-wrapper {
+        min-height: 80vh; /* Ajusta esto según el contenido para asegurar que el footer esté al fondo */
+        padding-bottom: 60px; /* Espacio para el footer */
+    }
 
+    .container-custom {
+        padding: 40px;
+    }
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;

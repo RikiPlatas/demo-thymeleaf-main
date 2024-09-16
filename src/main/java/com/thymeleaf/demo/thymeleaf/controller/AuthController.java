@@ -35,7 +35,7 @@ public class AuthController {
 
         if (usuarioEncontrado != null && usuarioService.verificarLogin(usuarioEncontrado, password)) {
             model.addAttribute("usuario", usuarioEncontrado);
-            return "main";
+            return "layout";
         } else {
             model.addAttribute("error", "Nombre de usuario o contraseña incorrectos");
             return "login";

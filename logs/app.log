@@ -3659,3 +3659,528 @@ java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.Sql
 2024-09-16T20:51:18.065+02:00 DEBUG 12040 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
 2024-09-16T20:51:18.066+02:00 DEBUG 12040 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
 2024-09-16T20:51:18.068+02:00 DEBUG 12040 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:20.495+02:00  INFO 12040 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:02:20.498+02:00  INFO 12040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T21:02:20.502+02:00  INFO 12040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-16T21:02:25.535+02:00  INFO 17340 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Starting DemoThymeleafApplication using Java 17.0.12 with PID 17340 (C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main\target\classes started by rikip in C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main)
+2024-09-16T21:02:25.537+02:00  INFO 17340 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T21:02:25.580+02:00  INFO 17340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16T21:02:25.580+02:00  INFO 17340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16T21:02:26.172+02:00  INFO 17340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:02:26.173+02:00  INFO 17340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-09-16T21:02:26.198+02:00  INFO 17340 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.thymeleaf.demo.thymeleaf.repository.UsuarioRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-09-16T21:02:26.199+02:00  INFO 17340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JDBC repository interfaces.
+2024-09-16T21:02:26.208+02:00  INFO 17340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:02:26.209+02:00  INFO 17340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T21:02:26.229+02:00  INFO 17340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-09-16T21:02:26.760+02:00  INFO 17340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-16T21:02:26.770+02:00  INFO 17340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T21:02:26.770+02:00  INFO 17340 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-09-16T21:02:26.810+02:00  INFO 17340 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T21:02:26.810+02:00  INFO 17340 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1229 ms
+2024-09-16T21:02:26.984+02:00  INFO 17340 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T21:02:27.032+02:00  INFO 17340 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-09-16T21:02:27.058+02:00  INFO 17340 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T21:02:27.223+02:00  INFO 17340 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T21:02:27.241+02:00  INFO 17340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T21:02:27.429+02:00  INFO 17340 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 1b61d145-5d4c-49bf-8711-460aee736dec
+2024-09-16T21:02:27.430+02:00  INFO 17340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T21:02:27.461+02:00  WARN 17340 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16T21:02:28.069+02:00  INFO 17340 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T21:02:28.238+02:00  INFO 17340 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:02:28.506+02:00  WARN 17340 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T21:02:28.636+02:00 DEBUG 17340 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-09-16T21:02:28.692+02:00 DEBUG 17340 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-16T21:02:28.724+02:00  INFO 17340 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@314ce3f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e7223a4, org.springframework.security.web.context.SecurityContextHolderFilter@11f228b3, org.springframework.security.web.header.HeaderWriterFilter@45987ee6, org.springframework.web.filter.CorsFilter@310d7632, org.springframework.security.web.authentication.logout.LogoutFilter@75513278, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@18b03f80, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d1d40f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cf7c5df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@555a1e95, org.springframework.security.web.access.ExceptionTranslationFilter@7c461fc9, org.springframework.security.web.access.intercept.AuthorizationFilter@50741f3c]
+2024-09-16T21:02:28.789+02:00 DEBUG 17340 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-16T21:02:28.813+02:00 DEBUG 17340 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-16T21:02:28.903+02:00  WARN 17340 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-09-16T21:02:28.969+02:00  INFO 17340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-16T21:02:28.995+02:00  INFO 17340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-09-16T21:02:29.003+02:00  INFO 17340 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Started DemoThymeleafApplication in 3.775 seconds (process running for 4.412)
+2024-09-16T21:02:29.057+02:00  INFO 17340 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T21:02:29.057+02:00  INFO 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T21:02:29.057+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-16T21:02:29.057+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-16T21:02:29.057+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-16T21:02:29.058+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4193a26
+2024-09-16T21:02:29.058+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2e9ffa2d
+2024-09-16T21:02:29.059+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-16T21:02:29.059+02:00  INFO 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-16T21:02:29.078+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/auth/login", parameters={}
+2024-09-16T21:02:29.081+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginForm(ModelMap)
+2024-09-16T21:02:29.110+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:02:29.315+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:29.324+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:02:29.325+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:02:29.338+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:29.403+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:29.403+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:29.406+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:02:29.414+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:32.699+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:02:32.699+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:02:32.854+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:02:32.868+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:32.876+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-09-16T21:02:32.876+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:02:32.877+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-16T21:02:32.880+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource css/style.css.]
+2024-09-16T21:02:32.880+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-16T21:02:32.887+02:00 DEBUG 17340 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:32.888+02:00 DEBUG 17340 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:32.888+02:00 DEBUG 17340 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [text/css, */*;q=0.1]
+2024-09-16T21:02:32.890+02:00 DEBUG 17340 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:33.105+02:00 DEBUG 17340 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:33.106+02:00 DEBUG 17340 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:33.106+02:00 DEBUG 17340 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:02:33.108+02:00 DEBUG 17340 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:37.850+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:37.850+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:37.851+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:02:37.853+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:39.183+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/auth/login", parameters={}
+2024-09-16T21:02:39.183+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginForm(ModelMap)
+2024-09-16T21:02:39.184+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:02:39.186+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:39.193+02:00 DEBUG 17340 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:02:39.194+02:00 DEBUG 17340 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:02:39.196+02:00 DEBUG 17340 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:39.211+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:39.211+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:39.212+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:02:39.214+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:41.529+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/auth/login", parameters={}
+2024-09-16T21:02:41.529+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginForm(ModelMap)
+2024-09-16T21:02:41.530+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:02:41.533+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:41.541+02:00 DEBUG 17340 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:02:41.542+02:00 DEBUG 17340 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:02:41.544+02:00 DEBUG 17340 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:41.615+02:00 DEBUG 17340 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:41.616+02:00 DEBUG 17340 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:41.616+02:00 DEBUG 17340 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:02:41.618+02:00 DEBUG 17340 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:43.015+02:00 DEBUG 17340 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:02:43.016+02:00 DEBUG 17340 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:02:43.072+02:00 DEBUG 17340 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:02:43.074+02:00 DEBUG 17340 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:43.083+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-09-16T21:02:43.084+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:02:43.086+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-16T21:02:43.086+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource css/style.css.]
+2024-09-16T21:02:43.086+02:00 DEBUG 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-16T21:02:43.089+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:43.089+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:43.090+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [text/css, */*;q=0.1]
+2024-09-16T21:02:43.091+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:43.121+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:43.121+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:43.122+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:02:43.123+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:43.912+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/auth/registro", parameters={}
+2024-09-16T21:02:43.912+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#registroForm(ModelMap)
+2024-09-16T21:02:43.913+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:02:43.926+02:00 DEBUG 17340 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:43.933+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:02:43.933+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:02:43.934+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:02:43.952+02:00 DEBUG 17340 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:02:43.952+02:00 DEBUG 17340 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:02:43.953+02:00 DEBUG 17340 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:02:43.954+02:00 DEBUG 17340 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:04:08.968+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:04:08.968+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:04:09.024+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:04:09.026+02:00 DEBUG 17340 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:04:09.038+02:00 DEBUG 17340 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-09-16T21:04:09.038+02:00 DEBUG 17340 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:04:09.040+02:00 DEBUG 17340 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-16T21:04:09.040+02:00 DEBUG 17340 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource css/style.css.]
+2024-09-16T21:04:09.040+02:00 DEBUG 17340 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-16T21:04:09.043+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:04:09.043+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:04:09.043+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [text/css, */*;q=0.1]
+2024-09-16T21:04:09.044+02:00 DEBUG 17340 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:04:09.113+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:04:09.113+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:04:09.114+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:04:09.116+02:00 DEBUG 17340 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:04:14.352+02:00  INFO 17340 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:04:14.356+02:00  INFO 17340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T21:04:14.359+02:00  INFO 17340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-16T21:04:16.511+02:00  INFO 9428 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Starting DemoThymeleafApplication using Java 17.0.12 with PID 9428 (C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main\target\classes started by rikip in C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main)
+2024-09-16T21:04:16.512+02:00  INFO 9428 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T21:04:16.560+02:00  INFO 9428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16T21:04:16.560+02:00  INFO 9428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16T21:04:17.080+02:00  INFO 9428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:04:17.082+02:00  INFO 9428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-09-16T21:04:17.106+02:00  INFO 9428 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.thymeleaf.demo.thymeleaf.repository.UsuarioRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-09-16T21:04:17.107+02:00  INFO 9428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JDBC repository interfaces.
+2024-09-16T21:04:17.115+02:00  INFO 9428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:04:17.116+02:00  INFO 9428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T21:04:17.137+02:00  INFO 9428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-09-16T21:04:17.660+02:00  INFO 9428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-16T21:04:17.670+02:00  INFO 9428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T21:04:17.670+02:00  INFO 9428 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-09-16T21:04:17.712+02:00  INFO 9428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T21:04:17.713+02:00  INFO 9428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1151 ms
+2024-09-16T21:04:17.879+02:00  INFO 9428 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T21:04:17.929+02:00  INFO 9428 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-09-16T21:04:17.956+02:00  INFO 9428 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T21:04:18.138+02:00  INFO 9428 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T21:04:18.158+02:00  INFO 9428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T21:04:18.347+02:00  INFO 9428 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 813fbc34-16af-4c18-a984-da9a005c1f5d
+2024-09-16T21:04:18.349+02:00  INFO 9428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T21:04:18.368+02:00  WARN 9428 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16T21:04:18.945+02:00  INFO 9428 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T21:04:19.009+02:00  INFO 9428 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:04:19.290+02:00  WARN 9428 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T21:04:19.413+02:00 DEBUG 9428 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-09-16T21:04:19.471+02:00 DEBUG 9428 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-16T21:04:19.510+02:00  INFO 9428 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a0c4f50, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15d9eb4c, org.springframework.security.web.context.SecurityContextHolderFilter@10de814a, org.springframework.security.web.header.HeaderWriterFilter@15d1a459, org.springframework.web.filter.CorsFilter@7a1c8814, org.springframework.security.web.authentication.logout.LogoutFilter@4d3d409b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ae0cd43, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24219034, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17033329, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c9091a6, org.springframework.security.web.access.ExceptionTranslationFilter@320656a0, org.springframework.security.web.access.intercept.AuthorizationFilter@5b91dda6]
+2024-09-16T21:04:19.561+02:00 DEBUG 9428 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-16T21:04:19.585+02:00 DEBUG 9428 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-16T21:04:19.670+02:00  WARN 9428 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-09-16T21:04:19.730+02:00  INFO 9428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-16T21:04:19.758+02:00  INFO 9428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-09-16T21:04:19.765+02:00  INFO 9428 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Started DemoThymeleafApplication in 3.565 seconds (process running for 3.917)
+2024-09-16T21:04:19.979+02:00  INFO 9428 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T21:04:19.979+02:00  INFO 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T21:04:19.979+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-16T21:04:19.979+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-16T21:04:19.979+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-16T21:04:19.980+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@3becb848
+2024-09-16T21:04:19.980+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2e735426
+2024-09-16T21:04:19.980+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-16T21:04:19.980+02:00  INFO 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-16T21:04:20.002+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:04:20.004+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:04:20.181+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:04:20.327+02:00 DEBUG 9428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:04:20.336+02:00 DEBUG 9428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-09-16T21:04:20.337+02:00 DEBUG 9428 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:04:20.338+02:00 DEBUG 9428 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-09-16T21:04:20.342+02:00 DEBUG 9428 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource css/style.css.]
+2024-09-16T21:04:20.342+02:00 DEBUG 9428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-09-16T21:04:20.352+02:00 DEBUG 9428 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:04:20.352+02:00 DEBUG 9428 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:04:20.354+02:00 DEBUG 9428 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [text/css, */*;q=0.1]
+2024-09-16T21:04:20.355+02:00 DEBUG 9428 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:04:20.481+02:00 DEBUG 9428 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:04:20.481+02:00 DEBUG 9428 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:04:20.482+02:00 DEBUG 9428 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:04:20.484+02:00 DEBUG 9428 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:05:21.336+02:00  INFO 9428 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:05:21.338+02:00  INFO 9428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T21:05:21.342+02:00  INFO 9428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-16T21:05:22.933+02:00  INFO 8572 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Starting DemoThymeleafApplication using Java 17.0.12 with PID 8572 (C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main\target\classes started by rikip in C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main)
+2024-09-16T21:05:22.935+02:00  INFO 8572 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T21:05:22.984+02:00  INFO 8572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16T21:05:22.984+02:00  INFO 8572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16T21:05:23.525+02:00  INFO 8572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:05:23.526+02:00  INFO 8572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-09-16T21:05:23.552+02:00  INFO 8572 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.thymeleaf.demo.thymeleaf.repository.UsuarioRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-09-16T21:05:23.553+02:00  INFO 8572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2024-09-16T21:05:23.561+02:00  INFO 8572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:05:23.562+02:00  INFO 8572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T21:05:23.584+02:00  INFO 8572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-09-16T21:05:24.121+02:00  INFO 8572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-16T21:05:24.132+02:00  INFO 8572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T21:05:24.132+02:00  INFO 8572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-09-16T21:05:24.177+02:00  INFO 8572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T21:05:24.177+02:00  INFO 8572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+2024-09-16T21:05:24.336+02:00  INFO 8572 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T21:05:24.393+02:00  INFO 8572 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-09-16T21:05:24.420+02:00  INFO 8572 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T21:05:24.609+02:00  INFO 8572 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T21:05:24.628+02:00  INFO 8572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T21:05:24.811+02:00  INFO 8572 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 2e71475a-567d-4284-a692-3d3200b30c96
+2024-09-16T21:05:24.813+02:00  INFO 8572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T21:05:24.833+02:00  WARN 8572 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16T21:05:25.441+02:00  INFO 8572 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T21:05:25.499+02:00  INFO 8572 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:05:25.772+02:00  WARN 8572 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T21:05:25.896+02:00 DEBUG 8572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-09-16T21:05:25.950+02:00 DEBUG 8572 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-16T21:05:25.985+02:00  INFO 8572 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@34774cb2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e81cc50, org.springframework.security.web.context.SecurityContextHolderFilter@168a1817, org.springframework.security.web.header.HeaderWriterFilter@32614268, org.springframework.web.filter.CorsFilter@2f66fcd1, org.springframework.security.web.authentication.logout.LogoutFilter@2b5dc0ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@867c8c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27c4c066, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e39a6a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28eeb305, org.springframework.security.web.access.ExceptionTranslationFilter@3c0a6f1d, org.springframework.security.web.access.intercept.AuthorizationFilter@7b63c319]
+2024-09-16T21:05:26.039+02:00 DEBUG 8572 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-16T21:05:26.068+02:00 DEBUG 8572 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-16T21:05:26.160+02:00  WARN 8572 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-09-16T21:05:26.222+02:00  INFO 8572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-16T21:05:26.250+02:00  INFO 8572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-09-16T21:05:26.258+02:00  INFO 8572 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Started DemoThymeleafApplication in 3.63 seconds (process running for 3.99)
+2024-09-16T21:05:28.593+02:00  INFO 8572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T21:05:28.593+02:00  INFO 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T21:05:28.593+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-16T21:05:28.593+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-16T21:05:28.593+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-16T21:05:28.594+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@619d33b0
+2024-09-16T21:05:28.594+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@26366143
+2024-09-16T21:05:28.594+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-16T21:05:28.594+02:00  INFO 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-16T21:05:28.620+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:05:28.621+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:05:28.785+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:05:28.918+02:00 DEBUG 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:05:28.927+02:00 DEBUG 8572 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:05:28.927+02:00 DEBUG 8572 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:05:28.939+02:00 DEBUG 8572 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:05:28.965+02:00 DEBUG 8572 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:05:28.965+02:00 DEBUG 8572 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:05:28.967+02:00 DEBUG 8572 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:05:28.968+02:00 DEBUG 8572 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:31.860+02:00  INFO 8572 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:06:31.863+02:00  INFO 8572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T21:06:31.867+02:00  INFO 8572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-16T21:06:33.645+02:00  INFO 2452 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Starting DemoThymeleafApplication using Java 17.0.12 with PID 2452 (C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main\target\classes started by rikip in C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main)
+2024-09-16T21:06:33.647+02:00  INFO 2452 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T21:06:33.690+02:00  INFO 2452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16T21:06:33.690+02:00  INFO 2452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16T21:06:34.219+02:00  INFO 2452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:06:34.222+02:00  INFO 2452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-09-16T21:06:34.245+02:00  INFO 2452 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.thymeleaf.demo.thymeleaf.repository.UsuarioRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-09-16T21:06:34.246+02:00  INFO 2452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JDBC repository interfaces.
+2024-09-16T21:06:34.255+02:00  INFO 2452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:06:34.256+02:00  INFO 2452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T21:06:34.278+02:00  INFO 2452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-09-16T21:06:34.818+02:00  INFO 2452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-16T21:06:34.828+02:00  INFO 2452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T21:06:34.828+02:00  INFO 2452 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-09-16T21:06:34.869+02:00  INFO 2452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T21:06:34.870+02:00  INFO 2452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1180 ms
+2024-09-16T21:06:35.052+02:00  INFO 2452 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T21:06:35.100+02:00  INFO 2452 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-09-16T21:06:35.126+02:00  INFO 2452 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T21:06:35.303+02:00  INFO 2452 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T21:06:35.323+02:00  INFO 2452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T21:06:35.499+02:00  INFO 2452 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c30f783f-269e-41c2-99a0-9a656bd2a4ea
+2024-09-16T21:06:35.501+02:00  INFO 2452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T21:06:35.526+02:00  WARN 2452 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16T21:06:36.116+02:00  INFO 2452 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T21:06:36.179+02:00  INFO 2452 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:06:36.456+02:00  WARN 2452 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T21:06:36.580+02:00 DEBUG 2452 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-09-16T21:06:36.637+02:00 DEBUG 2452 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-16T21:06:36.670+02:00  INFO 2452 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5f28ec4d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10667f36, org.springframework.security.web.context.SecurityContextHolderFilter@16d22d77, org.springframework.security.web.header.HeaderWriterFilter@7490afcd, org.springframework.web.filter.CorsFilter@21981de, org.springframework.security.web.authentication.logout.LogoutFilter@696f78f2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5cef705e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b07114e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1eeec061, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ae76164, org.springframework.security.web.access.ExceptionTranslationFilter@7c40dd42, org.springframework.security.web.access.intercept.AuthorizationFilter@35f1c92]
+2024-09-16T21:06:36.725+02:00 DEBUG 2452 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-16T21:06:36.748+02:00 DEBUG 2452 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-16T21:06:36.830+02:00  WARN 2452 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-09-16T21:06:36.896+02:00  INFO 2452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-16T21:06:36.920+02:00  INFO 2452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-09-16T21:06:36.927+02:00  INFO 2452 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Started DemoThymeleafApplication in 3.637 seconds (process running for 4.036)
+2024-09-16T21:06:37.121+02:00  INFO 2452 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T21:06:37.121+02:00  INFO 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T21:06:37.122+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-16T21:06:37.122+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-16T21:06:37.122+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-16T21:06:37.123+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@52838013
+2024-09-16T21:06:37.123+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1273e932
+2024-09-16T21:06:37.123+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-16T21:06:37.123+02:00  INFO 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-16T21:06:37.149+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:06:37.156+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:06:37.335+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:06:37.472+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:37.483+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:06:37.484+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:06:37.490+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:37.517+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:37.517+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:37.519+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:06:37.521+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:42.793+02:00 DEBUG 2452 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:42.793+02:00 DEBUG 2452 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:42.795+02:00 DEBUG 2452 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:06:42.797+02:00 DEBUG 2452 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:42.805+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:06:42.805+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:06:42.807+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:42.826+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:42.826+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:42.827+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:06:42.828+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:45.075+02:00 DEBUG 2452 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:45.076+02:00 DEBUG 2452 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:45.077+02:00 DEBUG 2452 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:06:45.078+02:00 DEBUG 2452 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:45.089+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:06:45.089+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:06:45.091+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:45.153+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:45.153+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:45.154+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:06:45.155+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:46.809+02:00 DEBUG 2452 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/auth/registro", parameters={}
+2024-09-16T21:06:46.810+02:00 DEBUG 2452 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#registroForm(ModelMap)
+2024-09-16T21:06:46.811+02:00 DEBUG 2452 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:06:46.865+02:00 DEBUG 2452 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:46.873+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:06:46.873+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:06:46.875+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:46.897+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:46.898+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:46.898+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:06:46.900+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:47.920+02:00 DEBUG 2452 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:47.921+02:00 DEBUG 2452 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:47.921+02:00 DEBUG 2452 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:06:47.923+02:00 DEBUG 2452 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:47.930+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:06:47.930+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:06:47.932+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:47.946+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:47.947+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:47.947+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:06:47.949+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:48.696+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/auth/login", parameters={}
+2024-09-16T21:06:48.697+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginForm(ModelMap)
+2024-09-16T21:06:48.698+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:06:48.700+02:00 DEBUG 2452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:48.708+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:06:48.709+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:06:48.710+02:00 DEBUG 2452 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:48.729+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:48.729+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:48.729+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:06:48.731+02:00 DEBUG 2452 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:50.034+02:00 DEBUG 2452 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:06:50.034+02:00 DEBUG 2452 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:06:50.089+02:00 DEBUG 2452 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:06:50.092+02:00 DEBUG 2452 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:50.100+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:06:50.100+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:06:50.102+02:00 DEBUG 2452 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:50.124+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:50.124+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:50.125+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:06:50.126+02:00 DEBUG 2452 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:06:51.813+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:06:51.813+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:06:51.814+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:06:51.815+02:00 DEBUG 2452 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:07:51.130+02:00  INFO 2452 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:07:51.132+02:00  INFO 2452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T21:07:51.137+02:00  INFO 2452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-16T21:07:52.726+02:00  INFO 15100 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Starting DemoThymeleafApplication using Java 17.0.12 with PID 15100 (C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main\target\classes started by rikip in C:\Users\rikip\Desktop\Code\Proyectos\demo-thymeleaf-main)
+2024-09-16T21:07:52.728+02:00  INFO 15100 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T21:07:52.769+02:00  INFO 15100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-16T21:07:52.769+02:00  INFO 15100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-16T21:07:53.314+02:00  INFO 15100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:07:53.316+02:00  INFO 15100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-09-16T21:07:53.343+02:00  INFO 15100 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.thymeleaf.demo.thymeleaf.repository.UsuarioRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-09-16T21:07:53.344+02:00  INFO 15100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JDBC repository interfaces.
+2024-09-16T21:07:53.353+02:00  INFO 15100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-16T21:07:53.354+02:00  INFO 15100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-16T21:07:53.377+02:00  INFO 15100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-09-16T21:07:53.925+02:00  INFO 15100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-16T21:07:53.936+02:00  INFO 15100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T21:07:53.936+02:00  INFO 15100 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-09-16T21:07:53.981+02:00  INFO 15100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T21:07:53.982+02:00  INFO 15100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1212 ms
+2024-09-16T21:07:54.165+02:00  INFO 15100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-16T21:07:54.212+02:00  INFO 15100 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-09-16T21:07:54.238+02:00  INFO 15100 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-16T21:07:54.426+02:00  INFO 15100 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-16T21:07:54.446+02:00  INFO 15100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T21:07:54.632+02:00  INFO 15100 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 86861292-5fa5-48ab-81fd-4aa75b51c150
+2024-09-16T21:07:54.633+02:00  INFO 15100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T21:07:54.652+02:00  WARN 15100 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: SQLServerDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-16T21:07:55.277+02:00  INFO 15100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-16T21:07:55.337+02:00  INFO 15100 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-16T21:07:55.608+02:00  WARN 15100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-16T21:07:55.734+02:00 DEBUG 15100 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-09-16T21:07:55.800+02:00 DEBUG 15100 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-09-16T21:07:55.834+02:00  INFO 15100 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@314ce3f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e7223a4, org.springframework.security.web.context.SecurityContextHolderFilter@11f228b3, org.springframework.security.web.header.HeaderWriterFilter@45987ee6, org.springframework.web.filter.CorsFilter@310d7632, org.springframework.security.web.authentication.logout.LogoutFilter@75513278, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@18b03f80, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d1d40f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cf7c5df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@555a1e95, org.springframework.security.web.access.ExceptionTranslationFilter@7c461fc9, org.springframework.security.web.access.intercept.AuthorizationFilter@50741f3c]
+2024-09-16T21:07:55.888+02:00 DEBUG 15100 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-09-16T21:07:55.914+02:00 DEBUG 15100 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-09-16T21:07:56.002+02:00  WARN 15100 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2024-09-16T21:07:56.065+02:00  INFO 15100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-16T21:07:56.090+02:00  INFO 15100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-09-16T21:07:56.097+02:00  INFO 15100 --- [restartedMain] c.t.d.t.DemoThymeleafApplication         : Started DemoThymeleafApplication in 3.686 seconds (process running for 4.028)
+2024-09-16T21:07:56.186+02:00  INFO 15100 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T21:07:56.187+02:00  INFO 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-16T21:07:56.187+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-09-16T21:07:56.187+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-09-16T21:07:56.187+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-09-16T21:07:56.188+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4193a26
+2024-09-16T21:07:56.188+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2e9ffa2d
+2024-09-16T21:07:56.188+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-09-16T21:07:56.188+02:00  INFO 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-16T21:07:56.211+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:07:56.213+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:07:56.448+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:07:56.589+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:07:56.599+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:07:56.600+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:07:56.615+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:07:56.641+02:00 DEBUG 15100 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:07:56.641+02:00 DEBUG 15100 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:07:56.643+02:00 DEBUG 15100 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:07:56.645+02:00 DEBUG 15100 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:46.130+02:00 DEBUG 15100 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:48:46.130+02:00 DEBUG 15100 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:48:46.190+02:00 DEBUG 15100 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:48:46.193+02:00 DEBUG 15100 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:46.203+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:48:46.203+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:48:46.205+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:46.260+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:48:46.260+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:48:46.261+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:48:46.262+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:49.666+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:48:49.667+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:48:49.668+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:48:49.670+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:49.678+02:00 DEBUG 15100 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:48:49.678+02:00 DEBUG 15100 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:48:49.679+02:00 DEBUG 15100 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:49.698+02:00 DEBUG 15100 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:48:49.698+02:00 DEBUG 15100 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:48:49.699+02:00 DEBUG 15100 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:48:49.700+02:00 DEBUG 15100 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:55.459+02:00 DEBUG 15100 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/auth/login", parameters={}
+2024-09-16T21:48:55.460+02:00 DEBUG 15100 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginForm(ModelMap)
+2024-09-16T21:48:55.461+02:00 DEBUG 15100 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:48:55.514+02:00 DEBUG 15100 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:55.524+02:00 DEBUG 15100 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:48:55.525+02:00 DEBUG 15100 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:48:55.527+02:00 DEBUG 15100 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:55.599+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:48:55.599+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:48:55.600+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:48:55.601+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:56.681+02:00 DEBUG 15100 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:48:56.681+02:00 DEBUG 15100 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:48:56.682+02:00 DEBUG 15100 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:48:56.683+02:00 DEBUG 15100 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:56.690+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:48:56.691+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:48:56.692+02:00 DEBUG 15100 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:48:56.707+02:00 DEBUG 15100 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:48:56.707+02:00 DEBUG 15100 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:48:56.708+02:00 DEBUG 15100 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:48:56.709+02:00 DEBUG 15100 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:49:00.117+02:00 DEBUG 15100 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/auth/login", parameters={masked}
+2024-09-16T21:49:00.117+02:00 DEBUG 15100 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.AuthController#loginSubmit(String, String, ModelMap)
+2024-09-16T21:49:00.173+02:00 DEBUG 15100 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:49:00.176+02:00 DEBUG 15100 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:49:00.192+02:00 DEBUG 15100 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:49:00.192+02:00 DEBUG 15100 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:49:00.194+02:00 DEBUG 15100 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:49:00.387+02:00 DEBUG 15100 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:49:00.387+02:00 DEBUG 15100 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:49:00.388+02:00 DEBUG 15100 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:49:00.389+02:00 DEBUG 15100 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:49:03.205+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:49:03.205+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:49:03.206+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-09-16T21:49:03.207+02:00 DEBUG 15100 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:49:03.212+02:00 DEBUG 15100 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/main.css", parameters={}
+2024-09-16T21:49:03.212+02:00 DEBUG 15100 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-09-16T21:49:03.213+02:00 DEBUG 15100 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-09-16T21:49:03.697+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/user/main", parameters={}
+2024-09-16T21:49:03.697+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.thymeleaf.demo.thymeleaf.controller.UsuarioController#index()
+2024-09-16T21:49:03.698+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2024-09-16T21:49:03.700+02:00 DEBUG 15100 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
