@@ -25,7 +25,7 @@ public class AuthController {
     @GetMapping("/login")
     public String loginForm(ModelMap model) {
         model.addAttribute("usuario", new Usuario());
-        return "login";
+        return "main";
     }
 
     // Procesar el inicio de sesión
@@ -35,10 +35,10 @@ public class AuthController {
 
         if (usuarioEncontrado != null && usuarioService.verificarLogin(usuarioEncontrado, password)) {
             model.addAttribute("usuario", usuarioEncontrado);
-            return "layout";
+            return "login";
         } else {
             model.addAttribute("error", "Nombre de usuario o contraseña incorrectos");
-            return "login";
+            return "main";
         }
     }
 

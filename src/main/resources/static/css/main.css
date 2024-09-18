@@ -1,13 +1,14 @@
-/* styles.css */
 /* styles bootstrap */
+/* Barra de navegacion (fondo del menu)*/
     .navbar-custom {
-        background-color: #007bff;
+        background-color: #4CAF50;
     }
+/* Cada elemento de la lista de navegacion */
     .navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
-        color: #fff;
+        color: #f4fbf3;
     }
     .footer-custom {
-        background-color: #f8f9fa;
+        background-color: #4CAF50;
         padding: 20px 0;
         position: relative;
         bottom: 0;
@@ -18,12 +19,10 @@
     }
     .content-wrapper {
         min-height: 80vh; /* Ajusta esto según el contenido para asegurar que el footer esté al fondo */
-        padding-bottom: 60px; /* Espacio para el footer */
+        padding-bottom: 50px; /* Espacio para el footer */
     }
 
-    .container-custom {
-        padding: 40px;
-    }
+
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -32,18 +31,12 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Contenedor principal */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 /* Formulario */
 form {
     background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -51,17 +44,6 @@ form {
 label {
     display: block;
     margin-bottom: 5px;
-}
-
-/* Campos de entrada */
-input[type="text"],
-input[type="email"] {
-    width: 30%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
 }
 
 /* Botón */
